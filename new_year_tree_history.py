@@ -29,12 +29,16 @@ def input_data_for_nyt():
 
 
 def built_segments_nyt():
+  def my_fun():
+    ...
   ...
 
 
 def built_root_nyt():
   ...
 
+def place_stars_on_segments_nyt():
+  ...
 
 def output_nyt():
   print("Ok!")
@@ -45,6 +49,8 @@ if __name__ == "__main__":
     input_data_for_nyt()
     # built segments in loop for  NYTree 
     built_segments_nyt()
+    # stars NYTree
+    place_stars_on_segments_nyt()
     # built root NYTree
     built_root_nyt()
     # output NYTree
