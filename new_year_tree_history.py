@@ -5,7 +5,7 @@
 
 Общая практика такая.
 Для модульного подхода.
-1. Главная функция состоит исключительно из вызовов других функций.
+1. Главная функция состоит исключительно из вызовов других функций. 
 2. Каждая функция решает только одну задачу, которую можно описать словами без союзов "И"
 3. Размер функции не более двух экранов. Как правило - не более одного экрана
 4. Функции решающие вопросы одного типа, группируются в модули.  То есть отдельные файлы. Например:
@@ -22,12 +22,31 @@ MVC - Model View Control для сайтов и иже с ними я упоми
 
 
 
-02
+03 - empty functions
 """
+def input_data_for_nyt():
+  ...
+
+
+def built_segments_nyt():
+  ...
+
+
+def built_root_nyt():
+  ...
+
+
+def output_nyt():
+  print("Ok!")
+
 
 if __name__ == "__main__":
     # input data for NYTree
+    input_data_for_nyt()
     # built segments in loop for  NYTree 
+    built_segments_nyt()
     # built root NYTree
+    built_root_nyt()
     # output NYTree
-    print("Ok!")
+    output_nyt()
+    
