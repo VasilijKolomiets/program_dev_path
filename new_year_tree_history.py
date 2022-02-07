@@ -22,37 +22,20 @@ MVC - Model View Control для сайтов и иже с ними я упоми
 
 
 
-03 - empty functions
+04 - modules
 """
-def input_data_for_nyt():
-  ...
-
-
-def built_segments_nyt():
-  def my_fun():
-    ...
-  ...
-
-
-def built_root_nyt():
-  ...
-
-def place_stars_on_segments_nyt():
-  ...
-
-def output_nyt():
-  print("Ok!")
-
+import nyt
+from my_io import input_data_for_nyt, output_nyt
 
 if __name__ == "__main__":
     # input data for NYTree
     input_data_for_nyt()
     # built segments in loop for  NYTree 
-    built_segments_nyt()
+    nyt.built_segments_nyt()
     # stars NYTree
-    place_stars_on_segments_nyt()
+    nyt.place_stars_on_segments_nyt()
     # built root NYTree
-    built_root_nyt()
+    nyt.built_root_nyt()
     # output NYTree
     output_nyt()
     

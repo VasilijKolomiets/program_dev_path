@@ -1,0 +1,13 @@
+"""
+NYT funcuon module
+"""
+def built_segments_nyt():
+  def my_fun():
+    ...
+  ...
+
+def built_root_nyt():
+  ...
+
+def place_stars_on_segments_nyt():
+  ...
